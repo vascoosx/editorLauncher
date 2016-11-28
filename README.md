@@ -5,11 +5,13 @@ A tool that allows you to edit any web form including google spreadsheet cells w
 
 ## Requirements
 
+### OSX users
+
 - [HammerSpoon](http://www.hammerspoon.org/)
 - GUI editor such as [Typora](http://www.typora.io/)
 - Lua
 
-## Installation
+#### Installation
 
 1. clone this repository 
 
@@ -24,6 +26,13 @@ require 'settings'
 ```
 3. adjust `settings.lua` to suit your needs.
 
+### Windows users
+
+- AutoHotKey
+- PowerShell
+
+#### installation
+Right click `windows/editorLauncher` and select `Run Script`
 
 ## Usage
 
