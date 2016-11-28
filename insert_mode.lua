@@ -12,6 +12,6 @@ function insert(editor)
     doubleClick()
     hs.eventtap.keyStroke({"cmd"}, "a")
     hs.eventtap.keyStroke({"cmd"}, "c")
-    local m = hs.task.new(string.format("%s/utils/paster.sh", conf.home), nil, {editor})
+    local m = hs.task.new(string.format("%s/utils/launcher.sh", conf.home), nil, {editor})
     m:start()
 end
