@@ -1,4 +1,4 @@
--- package.configpath = package.path .. ';/Users/iop/editorLauncher/' --change to adequate path
+-- package.path = package.path .. ';/Users/iop/editorLauncher/' --change to adequate path
 
 require 'insert_mode'
 require 'settings'

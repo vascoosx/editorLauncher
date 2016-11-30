@@ -20,7 +20,7 @@ A tool that allows you to edit any web form including google spreadsheet cells w
 2. change your `init.lua` (should be `~/.hammerspoon/init.lua`) so as to include functions in `insert_mode`  and configuration in `settings` like this:
 
 ```
-package.configpath = package.path .. ';<path/to/editorLauncher/>' 
+package.path = package.path .. ';<path/to/editorLauncher/>' 
 require 'insert_mode'
 require 'settings'
 ```
